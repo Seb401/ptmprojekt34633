@@ -4,8 +4,8 @@
 <window>
 <fastViewData fastViewLocation="1024">
 <orientation position="512" view="org.eclipse.debug.ui.ExpressionView"/>
-<orientation position="512" view="org.coocox.builder.ui.views.ProjectView"/>
 <orientation position="512" view="org.coocox.component.ui.ComponentView"/>
+<orientation position="512" view="org.coocox.builder.ui.views.ProjectView"/>
 <orientation position="512" view="org.coocox.codebugger.trace.ui.traceview"/>
 <orientation position="512" view="org.eclipse.debug.ui.DebugView"/>
 <orientation position="512" view="org.eclipse.ui.console.ConsoleView"/>
@@ -31,9 +31,9 @@
 <input factoryID="org.coocox.builder.ui.persistent.PersistentElementFactory">&#x0A;<org.coocox.welcome.ui.WelcomePage/>
 </input>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="F:/code/robol/main.c" title="main.c" tooltip="F:/code/robol/main.c" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="F:/code/robol/ptmprojekt34633/main.c" title="main.c" tooltip="F:/code/robol/ptmprojekt34633/main.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/robol/main.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5505" selectionTopPixel="2899"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4939" selectionTopPixel="3263"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx_usart.c" partName="stm32f4xx_usart.c" path="F:/code/robol/cmsis_lib/source/stm32f4xx_usart.c" title="stm32f4xx_usart.c" tooltip="F:/code/robol/cmsis_lib/source/stm32f4xx_usart.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/robol/cmsis_lib/source/stm32f4xx_usart.c"/>
@@ -414,6 +414,9 @@
 <actionBarAdvisor/>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="robol.coproj" tooltip="F:\code\robol\ptmprojekt34633\robol.coproj">
+<persistable uri="file:/F:/code/robol/ptmprojekt34633/robol.coproj"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="startup_stm32f4xx.c" tooltip="robol/cmsis_boot/startup/startup_stm32f4xx.c">
 <persistable path="/robol/cmsis_boot/startup/startup_stm32f4xx.c"/>
 </file>
@@ -426,9 +429,14 @@
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="robol.coproj" tooltip="F:\code\robol\robol.coproj">
 <persistable uri="file:/F:/code/robol/robol.coproj"/>
 </file>
-<file factoryID="org.coocox.component.ui.editors.repository.RepositoryElementFactory" id="org.coocox.builder.ui.editors.repository.RepositoryBrowser" name="Repository" tooltip="Repository">
-<persistable>&#x0A;<subPage/>
-</persistable>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx.h" tooltip="robol/cmsis_boot/stm32f4xx.h">
+<persistable path="/robol/cmsis_boot/stm32f4xx.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="robol/main.c">
+<persistable path="/robol/main.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx_rcc.h" tooltip="robol/cmsis_lib/include/stm32f4xx_rcc.h">
+<persistable path="/robol/cmsis_lib/include/stm32f4xx_rcc.h"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx.h" tooltip="robol/cmsis_boot/stm32f4xx.h">
 <persistable path="/robol/cmsis_boot/stm32f4xx.h"/>
@@ -439,25 +447,14 @@
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx_rcc.h" tooltip="robol/cmsis_lib/include/stm32f4xx_rcc.h">
 <persistable path="/robol/cmsis_lib/include/stm32f4xx_rcc.h"/>
 </file>
-<file factoryID="org.coocox.component.ui.editors.repository.RepositoryElementFactory" id="org.coocox.builder.ui.editors.repository.RepositoryBrowser" name="Repository" tooltip="Repository">
-<persistable>&#x0A;<subPage/>
-</persistable>
-</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx.h" tooltip="robol/cmsis_boot/stm32f4xx.h">
 <persistable path="/robol/cmsis_boot/stm32f4xx.h"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="robol/main.c">
-<persistable path="/robol/main.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="startup_stm32f4xx.c" tooltip="robol/cmsis_boot/startup/startup_stm32f4xx.c">
+<persistable path="/robol/cmsis_boot/startup/startup_stm32f4xx.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx_rcc.h" tooltip="robol/cmsis_lib/include/stm32f4xx_rcc.h">
-<persistable path="/robol/cmsis_lib/include/stm32f4xx_rcc.h"/>
-</file>
-<file factoryID="org.coocox.component.ui.editors.repository.RepositoryElementFactory" id="org.coocox.builder.ui.editors.repository.RepositoryBrowser" name="Repository" tooltip="Repository">
-<persistable>&#x0A;<subPage/>
-</persistable>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx.h" tooltip="robol/cmsis_boot/stm32f4xx.h">
-<persistable path="/robol/cmsis_boot/stm32f4xx.h"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx_usart.c" tooltip="robol/cmsis_lib/source/stm32f4xx_usart.c">
+<persistable path="/robol/cmsis_lib/source/stm32f4xx_usart.c"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx.h" tooltip="robol/cmsis_boot/stm32f4xx.h">
 <persistable path="/robol/cmsis_boot/stm32f4xx.h"/>

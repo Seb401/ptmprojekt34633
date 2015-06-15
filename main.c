@@ -89,7 +89,7 @@ void USART3_IRQHandler(void) {
 		AhmedSteruj(x,y);
 		count=0;
 		//bufor[1] = bufor[0]= '\0';
-		TIM_Cmd(TIM4, RESET);
+		TIM4->CNT = 0;
 	}
 	USART_ClearITPendingBit(USART3, USART_IT_RXNE);
 
